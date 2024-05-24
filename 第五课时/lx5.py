@@ -1,0 +1,11 @@
+dic={}
+dic['高']='10'
+dic['齐']='95'
+dic['邢']='100'
+print(dic)
+dic.pop('高')
+print(dic)
+dic.update({'高':'11'})
+print(dic)
+pa=dic['邢']
+print(pa)
